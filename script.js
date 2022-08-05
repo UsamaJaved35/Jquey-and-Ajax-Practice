@@ -23,6 +23,7 @@
 /*LESSON 4- SELECTING BY ATTRIBUTES */
 $(document).ready(function(){
     //by selecting required attribute
-//    $('input[required]').addClass('newClass')
+    //$('input[required]').addClass('newClass')
+    //by selecting placeholder attribute
     $('input[placeholder=Email]').addClass('newClass')
 });
