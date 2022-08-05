@@ -15,5 +15,7 @@
 /* LESSON 3- HOW TO SELECT DESCENDENTS*/
 $(document).ready(function(){
     //SELECTING ALL DESCENDENTS
-    $("#listing li").addClass("newClass")    
-})
+    //$('#listing  li').addClass('newClass')
+    //SELECTING DIRECT/FIRST DESCENDENTS
+    $('#listing > li').addClass('newClass')   
+});
