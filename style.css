@@ -1,6 +1,15 @@
 #container{
     background-color: aqua;
 }
-.list{
+.class1{
     background-color: yellow;
+}
+.class2{
+    background-color:purple;
+}
+.class3{
+    background-color: orangered;
+}
+.highlight{
+    color: white;
 }
