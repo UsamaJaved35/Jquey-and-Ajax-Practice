@@ -25,5 +25,7 @@ $(document).ready(function(){
     //by selecting required attribute
     //$('input[required]').addClass('newClass')
     //by selecting placeholder attribute
-    $('input[placeholder=Email]').addClass('newClass')
+   // $('input[placeholder=Email]').addClass('newClass')
+   //selecting all elements that have name in them
+   $('input[placeholder*=Name]').addClass('newClass')
 });
