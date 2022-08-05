@@ -13,9 +13,16 @@
 // });
 
 /* LESSON 3- HOW TO SELECT DESCENDENTS*/
+// $(document).ready(function(){
+//     //SELECTING ALL DESCENDENTS
+//     //$('#listing  li').addClass('newClass')
+//     //SELECTING DIRECT/FIRST DESCENDENTS
+//     $('#listing > li').addClass('newClass')   
+// });
+
+/*LESSON 4- SELECTING BY ATTRIBUTES */
 $(document).ready(function(){
-    //SELECTING ALL DESCENDENTS
-    //$('#listing  li').addClass('newClass')
-    //SELECTING DIRECT/FIRST DESCENDENTS
-    $('#listing > li').addClass('newClass')   
+    //by selecting required attribute
+//    $('input[required]').addClass('newClass')
+    $('input[placeholder=Email]').addClass('newClass')
 });
