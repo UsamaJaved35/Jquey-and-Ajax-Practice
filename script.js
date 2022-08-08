@@ -33,7 +33,10 @@
 /*LESSON 5- DOM TRAVERSING */
 
 $(document).ready(function(){
-   //using find method
-    var result=$('#animals').find('.creature');
-   console.log(result) 
+//    //using find method
+//     var result=$('#animals').find('.creature');
+//    console.log(result) 
+    //using children method for direct descendents
+    var result=$('#animals').children('.creature')
+    console.log(result)
 });
