@@ -21,11 +21,19 @@
 // });
 
 /*LESSON 4- SELECTING BY ATTRIBUTES */
+// $(document).ready(function(){
+//     //by selecting required attribute
+//     //$('input[required]').addClass('newClass')
+//     //by selecting placeholder attribute
+//    // $('input[placeholder=Email]').addClass('newClass')
+//    //selecting all elements that have name in them
+//    $('input[placeholder*=Name]').addClass('newClass')
+// });
+
+/*LESSON 5- DOM TRAVERSING */
+
 $(document).ready(function(){
-    //by selecting required attribute
-    //$('input[required]').addClass('newClass')
-    //by selecting placeholder attribute
-   // $('input[placeholder=Email]').addClass('newClass')
-   //selecting all elements that have name in them
-   $('input[placeholder*=Name]').addClass('newClass')
+   //using find method
+    var result=$('#animals').find('.creature');
+   console.log(result) 
 });
