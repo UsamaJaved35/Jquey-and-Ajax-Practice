@@ -40,6 +40,9 @@ $(document).ready(function(){
     // var result=$('#animals').children('.creature')
     // console.log(result)
     // using first(),last(),prev(),next()
-    var res=$('#animals').children().children().first()
+    //using first()
+    //var res=$('#animals').children().children().first()
+    //console.log(res)
+    var res=$('#animals').children().last().first()
     console.log(res)
 });
