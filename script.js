@@ -37,6 +37,9 @@ $(document).ready(function(){
 //     var result=$('#animals').find('.creature');
 //    console.log(result) 
     //using children method for direct descendents
-    var result=$('#animals').children('.creature')
-    console.log(result)
+    // var result=$('#animals').children('.creature')
+    // console.log(result)
+    // using first(),last(),prev(),next()
+    var res=$('#animals').children().children().first()
+    console.log(res)
 });
