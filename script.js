@@ -43,6 +43,12 @@ $(document).ready(function(){
     //using first()
     //var res=$('#animals').children().children().first()
     //console.log(res)
-    var res=$('#animals').children().last().first()
+    //using last()
+    //var res=$('#animals').children().last().first()
+    //console.log(res)
+    //using next() and prev()
+    var res=$('#animals').children().first().children().first().next()
+    console.log(res)
+    res=$('#animals').children().first().children().last().prev().prev()
     console.log(res)
 });
